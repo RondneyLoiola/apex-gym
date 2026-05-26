@@ -60,7 +60,7 @@ export function PlansSection() {
   return (
     <section id="planos" className="py-24 md:py-32 relative">
       {/* Background Elements */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-200 h-200 bg-primary/5 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-4 md:px-8 relative" ref={ref}>
         <motion.div
@@ -90,7 +90,7 @@ export function PlansSection() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className={`relative rounded-2xl p-8 ${
                 plan.popular 
-                  ? 'bg-gradient-to-b from-primary/20 to-card border-2 border-primary glow-green' 
+                  ? 'bg-linear-to-b from-primary/20 to-card border-2 border-primary glow-green' 
                   : 'bg-card border border-border hover:border-primary/30'
               } transition-all duration-300`}
             >
@@ -115,7 +115,7 @@ export function PlansSection() {
               <ul className="space-y-4 mb-8">
                 {plan.features.map((feature) => (
                   <li key={feature} className="flex items-start gap-3">
-                    <div className="w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <div className="w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center shrink-0 mt-0.5">
                       <Check className="w-3 h-3 text-primary" />
                     </div>
                     <span className="text-sm text-muted-foreground">{feature}</span>

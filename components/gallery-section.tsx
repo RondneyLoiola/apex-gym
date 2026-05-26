@@ -89,7 +89,7 @@ export function GallerySection() {
                   transform: hoveredIndex === index ? 'scale(1.1)' : 'scale(1)',
                 }}
               />
-              <div className={`absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent transition-opacity duration-300 ${
+              <div className={`absolute inset-0 bg-linear-to-t from-background/80 via-transparent to-transparent transition-opacity duration-300 ${
                 hoveredIndex === index ? 'opacity-100' : 'opacity-0'
               }`} />
               

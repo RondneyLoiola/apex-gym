@@ -9,7 +9,7 @@ const modalidades = [
     icon: Dumbbell,
     title: 'Musculação',
     description: 'Desenvolva força e hipertrofia com equipamentos de última geração e acompanhamento profissional.',
-    image: 'https://images.unsplash.com/photo-1581009146145-b5ef050c149a?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1697490575303-f605a7b12745?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     icon: Flame,
@@ -78,12 +78,12 @@ export function ModalidadesSection() {
               className="group relative rounded-2xl overflow-hidden cursor-pointer"
             >
               {/* Background Image */}
-              <div className="aspect-[4/3] relative">
+              <div className="aspect-4/3 relative">
                 <div 
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
                   style={{ backgroundImage: `url('${modalidade.image}')` }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-background via-background/50 to-transparent" />
                 
                 {/* Glow Effect on Hover */}
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-primary/10" />

@@ -115,7 +115,7 @@ Acesse [http://localhost:3000](http://localhost:3000) para ver o projeto rodando
 
 Este projeto está publicado na **Vercel**. Cada push na branch `main` gera um novo deploy automaticamente.
 
-🔗 **URL de produção:** [https://v0-gym-one.vercel.app](https://v0-gym-one.vercel.app)
+🔗 **URL de produção:** [https://apex-gym-ysites.vercel.app/](https://apex-gym-ysites.vercel.app/)
 
 ## 👤 Autor
 

@@ -17,7 +17,7 @@
 
 ## 📋 Sobre o Projeto
 
-O **Apex Gym** é uma landing page institucional para uma academia, desenvolvida com foco em design moderno e responsividade. O projeto foi criado com o auxílio da ferramenta [v0.app](https://v0.app) e hospedado na [Vercel](https://vercel.com).
+O **Apex Gym** é uma landing page institucional para uma academia, desenvolvida com foco em design moderno e responsividade.
 
 ## ✨ Funcionalidades
 

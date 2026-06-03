@@ -9,7 +9,7 @@
 
 **Landing page moderna para academia, construída com Next.js e shadcn/ui.**
 
-[🌐 Ver Demo](https://v0-gym-one.vercel.app) • [📁 Repositório](https://github.com/RondneyLoiola/apex-gym)
+[🌐 Ver Demo](https://apex-gym-ysites.vercel.app/) • [📁 Repositório](https://github.com/RondneyLoiola/apex-gym)
 
 </div>
 
